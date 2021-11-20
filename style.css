@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shippori Antique', sans-serif;
+}
+.logo{
+    height: 65px;
+}
+a{
+    font-weight: 500;
+}
+li{
+    padding: 0 10px;
+}
+p{
+    color: dimgray;
+}
+.textBox{
+    width: 85%;
+}
+.button{
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+.sec1{
+    background-image: url(images/bg-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header{
+    background-image: url(images/bg-2.png);
+    background-position: left bottom;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.cards{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 1px 35px 2px rgba(209,195,195,0.73);
+    -webkit-box-shadow: 0px 1px 35px 2px rgba(209,195,195,0.73);
+    -moz-box-shadow: 0px 1px 35px 2px rgba(209,195,195,0.73);
+}
+.titleBox{
+    position: relative;
+    height: 70px;
+    width: 200px;
+    margin: auto;
+}
+.title::before{
+    content: " ";
+    background-image: linear-gradient(to right, orange, rgb(250, 133, 79));
+    position: absolute;
+    height: 8px;
+    width: 120px;
+    bottom: 20px;
+    left: 40px;
+    border-radius: 10px;
+}
+.cBox{
+    outline: none;
+    text-align: center;
+    height: 230px;
+    width: 220px;
+    margin-bottom: 40px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    -webkit-box-shadow: 1px 2px 20px 4px rgba(45,49,42,0.63); 
+    box-shadow: 1px 2px 20px 4px rgba(45,49,42,0.63);
+    border: none;
+}
+#cBox{
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
